@@ -6,21 +6,21 @@ body{
 #header{
 	text-align: center;
 	font-family: Georgia;
-	font-size: 200%;
-	padding: 2em;
+	font-size: 30px;
+	padding: 2%;
 	position: absolute;
     left: 0px;
     top: 90px;
     z-index: 0;
 }
 #short-bio{
-	padding: 10%;
+	padding: 6em;
 	position: absolute;
     left: 0px;
     top: 150px;
     z-index: 0;
 
-	width: 50%
+	width: 50%;
 }
 
 #background-pic{
