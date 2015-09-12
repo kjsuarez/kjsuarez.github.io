@@ -1,0 +1,37 @@
+body{
+	
+	color: #fff;
+	background-color: #262626
+}
+#header{
+	text-align: center;
+	font-family: Georgia;
+	font-size: 200%;
+	padding: 2em;
+	position: absolute;
+    left: 0px;
+    top: 90px;
+    z-index: 0;
+}
+#short-bio{
+	padding: 10%;
+	position: absolute;
+    left: 0px;
+    top: 150px;
+    z-index: 0;
+
+	width: 50%
+}
+
+#background-pic{
+	background-position: 50% 70%;
+	background-image: url("../assets/downtown-LA.jpg");
+	
+	background-color: #262626;
+	height: 80%;
+	width: 100%;
+	position: absolute;
+    left: 0px;
+    top: 90px;
+    z-index: -1;
+}
