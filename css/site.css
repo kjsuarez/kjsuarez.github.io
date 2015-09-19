@@ -3,6 +3,21 @@ body{
 	color: #fff;
 	background-color: #262626
 }
+
+
+#background-pic{
+	background-position: 50% 70%;
+	background-image: url("../assets/downtown-LA.jpg");
+	
+	background-color: #262626;
+	height: 80%;
+	width: 100%;
+	position: absolute;
+    left: 0px;
+    top: 90px;
+    z-index: -1;
+}
+
 #header{
 	text-align: center;
 	font-family: 'PT Sans Narrow', sans-serif;
@@ -22,16 +37,39 @@ body{
 
 	width: 25%;
 }
-
-#background-pic{
-	background-position: 50% 70%;
-	background-image: url("../assets/downtown-LA.jpg");
-	
-	background-color: #262626;
-	height: 80%;
-	width: 100%;
+#guildhouse-pitch{
+	padding: 6em;
 	position: absolute;
     left: 0px;
-    top: 90px;
-    z-index: -1;
+    top: 800px;
+    z-index: 0;
+	width: 50%;
+	
+	font-size: 130%;
+
+}
+
+#contact{
+	padding-top: -10px;
+	padding: 6em;
+	position: absolute;
+    left: 0px;
+    top: 1000px;
+    z-index: 0;
+	width: 25%;
+	background-color: red;
+	font-size: 120%;
+}
+p{
+	margin: 0;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+	color: black;
+
 }
