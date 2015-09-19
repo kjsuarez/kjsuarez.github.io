@@ -1,5 +1,5 @@
 body{
-	
+	font-family: georgia;
 	color: #fff;
 	background-color: #262626
 }
@@ -32,16 +32,17 @@ body{
 	padding: 6em;
 	position: absolute;
     left: 0px;
-    top: 150px;
+    top: 250px;
     z-index: 0;
-
-	width: 25%;
+    font-size: 150%;
+	width: 40%;
 }
 #guildhouse-pitch{
+	font-family: georgia;
 	padding: 6em;
 	position: absolute;
     left: 0px;
-    top: 800px;
+    top: 750px;
     z-index: 0;
 	width: 50%;
 	
@@ -57,7 +58,6 @@ body{
     top: 1000px;
     z-index: 0;
 	width: 25%;
-	background-color: red;
 	font-size: 120%;
 }
 p{
@@ -70,6 +70,6 @@ a{
 }
 a:visited {
     text-decoration: none;
-	color: black;
+	color: white;
 
 }
