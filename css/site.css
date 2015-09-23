@@ -37,12 +37,24 @@ body{
     font-size: 150%;
 	width: 40%;
 }
+#experience{
+	font-family: georgia;
+	padding: 6em;
+	position: absolute;
+    left: 0px;
+    top: 550px;
+    z-index: 0;
+	width: 50%;
+	
+	font-size: 130%;
+}
+
 #guildhouse-pitch{
 	font-family: georgia;
 	padding: 6em;
 	position: absolute;
     left: 0px;
-    top: 750px;
+    top: 830px;
     z-index: 0;
 	width: 50%;
 	
@@ -55,7 +67,7 @@ body{
 	padding: 6em;
 	position: absolute;
     left: 0px;
-    top: 1000px;
+    top: 1100px;
     z-index: 0;
 	width: 25%;
 	font-size: 120%;
@@ -65,11 +77,11 @@ p{
 }
 
 a{
-	color: white;
+	color: #B1B1B1;
 	text-decoration: none;
 }
 a:visited {
     text-decoration: none;
-	color: white;
+	color: #B1B1B1;
 
 }
