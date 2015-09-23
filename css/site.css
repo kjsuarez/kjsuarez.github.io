@@ -1,7 +1,9 @@
 body{
+	text-shadow: 2px 2px 2px #000000;
 	font-family: georgia;
 	color: #fff;
 	background-color: #262626
+
 }
 
 
@@ -45,8 +47,11 @@ body{
     top: 550px;
     z-index: 0;
 	width: 50%;
-	
+
 	font-size: 130%;
+}
+#experience ul{ 
+	padding: 0;
 }
 
 #guildhouse-pitch{
